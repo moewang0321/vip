@@ -1,5 +1,5 @@
 requirejs({
-    baseUrl:'https://localhost:8000',
+    baseUrl:'https://moewang0321.github.io/vip/dist/',
     paths:{
         'jquery' : 'static/scripts/jquery-2.0.3',
         'jqCookie' : 'static/scripts/jquery.cookie.min',
