@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="../../styles/base.css">
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="stylesheet" href="../../static/styles/city.css">
+    <script type="text/javascript">
+    //js实现具体链接http转https协议，代码建议放在代码网页开头，不至于加载完页面才开始跳转。
+            if (window.location.protocol == "http:") {
+                window.location.href = window.location.href.replace("http","https");
+            }
+    </script>
     <script src="../../static/scripts/jquery-2.0.3.js"></script>
 </head>
 <body>
