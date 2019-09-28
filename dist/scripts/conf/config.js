@@ -1,5 +1,5 @@
 requirejs({
-    baseUrl:'http://localhost:8000',
+    baseUrl:'https://localhost:8000',
     paths:{
         'jquery' : 'static/scripts/jquery-2.0.3',
         'jqCookie' : 'static/scripts/jquery.cookie.min',
