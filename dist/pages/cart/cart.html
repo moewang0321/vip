@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>唯品会-我的购物袋</title>
+    <link rel="stylesheet" href="../../static/styles/iconfont.css">
+    <link rel="stylesheet" href="../../styles/base.css">
+    <link rel="stylesheet" href="../../styles/product.css">
+    <link rel="stylesheet" href="../../styles/cart.css">
+    <link rel="stylesheet" href="../../static/styles/city.css">
+    <script src="../../static/scripts/jquery-2.0.3.js"></script>
+</head>
+
+<body>
+    <div class="moe-header moe-content">
+        <div class="head-inner moe-center">
+
+            <div class="moe-citySet l">
+                <ul id="list1" class="l">
+                    <li id="summary-stock">
+                        <div class="dd">
+                            <div id="store-selector">
+                                <div class="text">
+                                    <div></div>
+                                </div>
+                                <div onclick="$('#store-selector').removeClass('hover')" class="close"></div>
+                            </div>
+                            <div id="store-prompt"><strong></strong></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="moe-header-r r">
+
+                <li><a href="">
+                        <span>
+                            <i class="iconfont iconliwu" style="font-size:18px; color: #f11a8c"></i>
+                            签到有礼
+                        </span>
+
+                    </a></li>
+                <li>
+                    <span><a href="">我的订单</a></span>
+                </li>
+                <li>
+                    <span><a href="">我的特卖<i class="iconfont iconsanjiao"></i></a></span>
+                    <div class="top-nav-dis service-infor fav-nav-drop">
+                        <p class="top-nav-list">
+                            <span><a href="//fav.vip.com/goods" target="_blank" mars_sead="home_top_nav2_product"
+                                    rel="nofollow">商品收藏</a></span>
+                            <span><a href="//fav.vip.com/brand" target="_blank" mars_sead="home_top_nav2_brand"
+                                    rel="nofollow">品牌收藏</a></span>
+                            <span><a href="//fav.vip.com/browse" target="_blank" mars_sead="home_top_nav2_footprint"
+                                    rel="nofollow">我的足迹</a></span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span><a href="">会员俱乐部<i class="iconfont iconsanjiao"></i></a></span>
+                    <div class="top-nav-dis service-infor">
+                        <p class="top-nav-list">
+                            <span>
+                                <a href="//iclub.vip.com/" mars_sead="home_top_nav2_jf" target="_blank"
+                                    rel="nofollow">俱乐部首页</a>
+                            </span>
+                            <span>
+                                <a href="//iclub.vip.com/" mars_sead="home_top_nav2_jf" target="_blank"
+                                    rel="nofollow">唯品币兑换</a>
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span><a href="">客户服务<i class="iconfont iconsanjiao"></i></a></span>
+                    <div class="top-nav-dis service-infor">
+
+                        <p class="top-nav-list">
+                            <span>
+                                <a href="//acs.vip.com/" mars_sead="home_top_nav2_kefu" target="_blank"
+                                    rel="nofollow">联系客服</a>
+                            </span>
+                            <span>
+                                <a href="//help.vip.com/" mars_sead="home_top_nav2_help" target="_blank"
+                                    rel="nofollow">帮助中心</a>
+                            </span>
+                            <span>
+                                <a href="//acs.vip.com/index.html" mars_sead="home_top_nav2_feedback" target="_blank"
+                                    rel="nofollow">服务中心</a>
+                            </span>
+                            <span>
+                                <a href="https://viva.vip.com/act/surveyUpdatePage-pc?wapid=vivac_1169"
+                                    mars_sead="home_top_nav2_feedback" target="_blank" rel="nofollow">知识产权投诉</a>
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span><a href=""><i class="iconfont iconshouji"></i>手机版</a></span>
+                    <div class="top-nav-dis phone-infor service-infor" id="J_phoneTip_con" ">
+                            <i class=" ico-arw-bodder"></i>
+                        <span class="phone-close hidden" id="J_phone_close"></span>
+                        <div class="tc" id="J_phoneTips_wrap">
+                            <a href="//m.vip.com/app/?f=nav" target="_blank">
+                                <img src="../../static/imgs/1466134037230.jpg" alt="" width="161px" height="161px">
+                            </a>
+                            <p>
+                                <a href="//m.vip.com/app/?f=nav" target="_blank">随时逛 及时抢</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span><a href="">更多<i class="iconfont iconsanjiao"></i></a></span>
+                    <div class="top-nav-dis service-infor service-infor-more">
+
+                        <h5 class="service-more-hd clearfix">合作专区</h5>
+                        <p class="top-nav-list clearfix">
+                            <a href="//mst.vip.com/ByMIo4p5mM1-pZjNGBTysQ.php?client=vipcms&amp;wapid=mst_2667903&amp;extra_type=1"
+                                target="_blank" mars_sead="home_top_nav1_ncard" rel="nofollow">联名卡申请</a>
+                            <a href="//vipcard.vip.com/" target="_blank" mars_sead="home_top_nav1_vipcard"
+                                rel="nofollow">唯品卡</a>
+                        </p>
+                        <h5 class="service-more-hd clearfix service-more-hd2">关于我们</h5>
+                        <p class="top-nav-list clearfix service-more-p">
+                            <a href="//viva.vip.com/act/supportInvestment-pc?wapid=vivac_812&amp;lang=en"
+                                target="_blank">Sell on vip</a>
+                            <a href="//viva.vip.com/act/supportInvestment-pc?wapid=vivac_812" target="_blank"
+                                rel="nofollow">品牌招商</a>
+                            <a href="//blog.vip.com/" target="_blank">官方博客</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="moe-header-logo moe-content">
+        <div class="moe-header-logo-inner moe-center">
+            <div class="c-logo">
+                <div class="header-logo-dop">
+                    <img src="../../static/imgs/1568106178428.gif" alt="">
+                </div>
+            </div>
+            <div class="c-service  header-vip  has-service-operation l">
+
+            </div>
+           <!--  <div id="J_head_cart" class="head-cart head-bag-car J_cart_ico" data-hover="head-cart-hover">
+                <div class="tool" id="J_shortTime">
+                    <a href="//cart.vip.com/te2/" mars_sead="home_top_bag_button" target="_blank" rel="nofollow">
+                        <span class="ico-bag"></span>
+                        <span class="mycarttext-default" id="J-mycartText">购物袋</span>
+                        <span class="mycarttext-countdown  J_cart_countDowncart" id="J-mycartText-countdown"></span>
+                        <span id="J_skuCount_container" class="counti-cons-bg">
+                            <span id="J_skuCount">0</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="tool-cn" id="J_headCartList_wrap">
+                    <div class="tool-cn-inner tool-cn-inner-yep">
+                        <div class="tool-cn-in ">
+                            <p>你的购物袋还没有商品，再去逛逛吧~</p>
+
+                        </div>
+                        <div class="head-cart-yao" id="J-head-cart-yao">
+                            <a href="http://cart.vipshopyao.com/cart" target="_blank" class="head-cart-yao-link">
+                                <span class="head-cart-yao-golist">去医药清单<i class="iconfont iconicon--"></i></span><span
+                                    class="head-cart-yao-name">医药商品<i class="head-cart-yao-num"
+                                        id="J-head-cart-yao-num">0</i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tool-cn-inner tool-cn-inner-no">
+                        <p>好像还未登录！<a href="../log/login.html">马上登录</a>
+                            查看购物袋吧！
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-search c-category-search">
+                <div class="c-search-form">
+                    <input class="c-search-input  J-search-input" type="text" placeholder="面膜" autocomplete="off"
+                        max-length="100">
+                    <a class="c-search-button  J-search-button  J_fake_a" href="###">
+                        <span class="iconfont iconsousuo"></span>
+                    </a>
+                </div>
+                <div class="c-search-helper  J-search-helper">
+                    <ul class="c-search-suggestions J_search_suggestions_list">
+
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- 主结构 -->
+
+    <div class="cart-main">
+        <div class="cart-main-wrap">
+            <table class="cart-inner-table">
+                <tr class="cart-inner-title">
+                    <th class="saleName">
+                        <div></div>
+                        精选特卖
+                    </th>
+                    <th class="salePrice">单价</th>
+                    <th class="saleCount">数量</th>
+                    <th class="saleSumP">小计</th>
+                    <th class="saleDel">操作</th>
+                </tr>
+                
+            </table>
+
+            <div class="cart-bottom">
+                <div class="cart-sumPriceBox">
+                    <div class="cart-sumBox-inner">
+                        <p class="cart-sum-top">
+                            共<span class="cart-sum-top-count">0</span>件商品&nbsp;&nbsp;&nbsp;&nbsp;商品金额<span class="cart-sum-top-all">￥0</span>
+                        </p>
+                        <p class="cart-sum-bot">
+                            总金额（未含运费）<span class="cart-sum-top-all">￥0</span>
+    
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="cart-pay">
+                    <div class="cart-pay-btn">
+                        <span>
+                            立即结算
+                        </span>
+                    </div>
+                    <p>请尽快结算！</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <ul class="footer-vip">
+
+            </ul>
+            <div class="footer-list">
+                <dl class="link-anim">
+                    <dt>服务保障</dt>
+                    <dd>
+                        <a href="//viva.vip.com/act/supportInsurance?wapid=vivac_767" target="_blank"
+                            rel="nofollow">正品保证</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/commitment.php" target="_blank" rel="nofollow">7天无理由放心退</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/commitment.php" target="_blank" rel="nofollow">退货返10元唯品币</a>
+                    </dd>
+                    <dd>
+                        <a href="//acs.vip.com/" target="_blank" rel="nofollow">7x15小时客户服务</a>
+                    </dd>
+                    <dd>
+                        <a href="//viva.vip.com/act/changeProduct-pc?wapid=vivac_825" target="_blank"
+                            rel="nofollow">7天无理由随心换</a>
+                    </dd>
+                </dl>
+                <dl class="link-anim">
+                    <dt>购物指南</dt>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=308" target="_blank"
+                            rel="nofollow">导购演示</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=330" target="_blank"
+                            rel="nofollow">订单操作</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=206" target="_blank"
+                            rel="nofollow">会员注册</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=329" target="_blank"
+                            rel="nofollow">账户管理</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=104" target="_blank"
+                            rel="nofollow">收货样品</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?cid=69" target="_blank" rel="nofollow">会员等级</a>
+                    </dd>
+                </dl>
+                <dl class="link-anim">
+                    <dt>支付方式</dt>
+                    <dd>
+                        <a href="//mst.vip.com/ByMIo4p5mM1-pZjNGBTysQ.php?client=vipcms&amp;wapid=mst_2667903&amp;extra_type=1"
+                            target="_blank" rel="nofollow">快捷支付</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=336" target="_blank"
+                            rel="nofollow">23家主流网银支付</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=336" target="_blank"
+                            rel="nofollow">支付宝、银联等支付</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=336" target="_blank"
+                            rel="nofollow">信用卡支付</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=335" target="_blank"
+                            rel="nofollow">零钱支付</a>
+                    </dd>
+                </dl>
+                <dl class="link-anim">
+                    <dt>配送方式</dt>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=345" target="_blank"
+                            rel="nofollow">全场满288元免运费</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=345" target="_blank"
+                            rel="nofollow">配送范围及运费</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=63" target="_blank"
+                            rel="nofollow">验货与签收</a>
+                    </dd>
+                </dl>
+                <dl class="link-anim">
+                    <dt>售后服务</dt>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?cid=74" target="_blank" rel="nofollow">退货政策</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=236" target="_blank"
+                            rel="nofollow">退货流程</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?type=detail&amp;id=317" target="_blank"
+                            rel="nofollow">退款方式和时效</a>
+                    </dd>
+                    <dd>
+                        <a href="//help.vip.com/themelist.php?cid=146" target="_blank" rel="nofollow">换货服务</a>
+                    </dd>
+                </dl>
+                <dl class="tc last">
+                    <dt>唯品会APP二维码</dt>
+                    <dd>
+                        <img class="lazy" src="//a.vpimg4.com/upload/actpics/xuangou_daily/help/page_bottom_dl_n.png"
+                            width="100" height="100" alt="唯品会APP二维码">
+                    </dd>
+                    <dd>下载唯品会移动APP</dd>
+                </dl>
+            </div>
+            <div class="footer-infor">
+                <p class="footer-infor-link">
+                    <a target="_blank" rel="nofollow" href="//viva.vip.com/act/supportContact-pc?wapid=vivac_806"
+                        title="关于我们">关于我们</a>|
+                    <a target="_blank" rel="nofollow" href="//viva.vip.com/act/supportContactEn-pc?wapid=vivac_799"
+                        title="About us">About us</a>|
+                    <a target="_blank" rel="nofollow" href="http://ir.vip.com/" title="Investor Relations">Investor
+                        Relations</a>|
+                    <a target="_blank" rel="nofollow" href="//blog.vip.com/?r=/Blog/HTML_showList/sort_id//29"
+                        title="媒体报道">媒体报道</a>|
+                    <a target="_blank" rel="nofollow" href="//vis.vip.com/stipulate/" title="品牌招商">品牌招商</a>|
+                    <a target="_blank" rel="nofollow" href="//viva.vip.com/act/supportPrivacy-pc?wapid=vivac_804"
+                        title="隐私条款">隐私条款</a>|
+                    <a target="_blank" rel="nofollow" href="https://job.vip.com" title="唯品诚聘">唯品诚聘</a>|
+                    <a target="_blank" rel="nofollow" href="//vipcard.vip.com" title="唯品卡">唯品卡</a>|
+                    <a target="_blank" href="//viva.vip.com/act/supportContactUs-pc?wapid=vivac_800"
+                        title="联系我们">联系我们</a>
+                </p>
+                <p class="footer-infor-txt">
+                    Copyright © 2008-2019 vip.com，All Rights Reserved&nbsp;&nbsp;使用本网站即表示接受
+                    <a rel="nofollow" href="//viva.vip.com/act/supportClause-pc?wapid=vivac_802">唯品会用户协议</a>。版权所有
+                    <a rel="nofollow" href="//www.vip.com/">广州唯品会电子商务有限公司</a>
+                    <br>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010302111111"
+                        target="_blank">
+                        <img src="//a.vpimg4.com/upload/actpics/act/sp/police_icon.png" width="14" height="14"
+                            style="margin:2px 3px 0 0;">粤公网安备 44010302111111号
+                    </a>&nbsp;&nbsp;
+                    <a rel="nofollow" href="http://www.beian.miit.gov.cn">粤ICP备08114786号</a>
+                    <a rel="nofollow" target="_blank"
+                        href="//viva.vip.com/act/actValueAddedService-pc">增值业务经营许可证：粤B2-20170777 </a>
+                    <a rel="nofollow"
+                        href="http://qr.ccm.gov.cn/lic/4b3d4177d8ec4aef91469e36f63702fa#">网络文化经营许可证：粤网文〔2018〕5030-1743号</a>
+                    <br>
+                    <a rel="nofollow"
+                        href="//viva.vip.com/act/actBusinessLicense-pc?wapid=vivac_813">自营主体经营证照</a>&nbsp;&nbsp;
+                    <a href="//help.vip.com/themelist.php?type=detail&amp;id=475" target="_blank"
+                        rel="nofollow">风险监测信息</a>&nbsp;&nbsp;
+                    <a rel="nofollow"
+                        href="//viva.vip.com/act/c/actDrugInfoLicense-pc?wapid=vivac_1070">互联网药品信息服务资格证书：（粤）-经营性-2018-0271</a>
+                    <a rel="nofollow" href="//viva.vip.com/act/actFoodTradeLicense-pc?wapid=vivac_1131">
+                        网络食品交易第三方平台备案凭证：粤B2-20170777 </a>
+                    <a rel="nofollow"
+                        href="//viva.vip.com/act/actInstrumentTradeLicense-pc?wapid=vivac_1132">医疗器械网络交易服务第三方平台备案凭证：（粤）网械平台备字[2019]第00001号</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-ft">
+            <p class="footer-pic">
+                <a rel="nofollow" target="_blank" href="//online.unionpay.com/">
+                    <i class="footer-pic-ico01" title="银联特约商户"></i>
+                </a>
+                <a rel="nofollow" target="_blank" href="//weiquan.vip.com">
+                    <i class="footer-pic-ico04" title="消费维权服务站"></i>
+                </a>
+                <a rel="nofollow" target="_blank"
+                    href="http://netadreg.gzaic.gov.cn/ntmm/WebSear/WebLogoPub.aspx?logo=a8bbcd43bb6c42dcba9d357c2d8fad35">
+                    <i class="footer-pic-ico05" title="红盾电子链接标识"></i>
+                </a>
+                <a rel="nofollow" target="_blank" href="http://www.gzjd.gov.cn/">
+                    <i class="footer-pic-ico06" title="网络警察报警平台"></i>
+                </a>
+                <a rel="nofollow" target="_blank"
+                    href="//www.weibo.com/u/2931161010?topnav=1&amp;wvr=6&amp;topsug=1&amp;is_hot=1">
+                    <i class="footer-pic-ico07" title="公安局网络警察支队"></i>
+                </a>
+                <a rel="nofollow" target="_blank" href="https://credit.cecdc.com/CX20160725023666090470.html"
+                    id="___szfw_logo___">
+                    <i class="footer-pic-ico09" title="诚信网站"></i>
+                </a>
+                <a rel="nofollow" target="_blank"
+                    href="https://ss.knet.cn/verifyseal.dll?sn=2011022400100006603&amp;ct=df&amp;a=1&amp;pa=0.5265976136604793">
+                    <i class="footer-pic-ico10" title="可信网站"></i>
+                </a>
+            </p>
+        </div>
+    </footer>
+    <!-- 底部end -->
+
+    <!-- 右边栏 -->
+
+    <div class="m-sidebarcom">
+        <div class="sidebarcom-nav">
+            <div class="sidebarcom-nav-cnt">
+                <ul class="sidebarcom-oper">
+                    <li class="sidebarcom-my">
+                        <div class="sidebarcom-my-con">
+                            <i class="i-sidebarcom-my vipSidebarFont iconfont icongeren">
+                                <i class="sidebarcom-my-name">帐号</i>
+                            </i>
+
+                        </div>
+                    </li>
+
+                    <li class="sidebarcom-cart is-cart-highlight">
+                        <div id="J_cart">
+                            <div class="sidebarcom-cart-bar">
+                                <i class="i-sidebarcom-cart vipSidebarFont iconfont icongouwudai2"></i>
+                                <p class="sidebarcom-cart-text">购物袋</p>
+                                <i id="J_cart_num" class="J_sbar_cart_count i-sidebarcom-nub">0</i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sidebarcom-asset">
+                        <div id="J_asset" class="">
+                            <i class="i-sidebarcom-asset iconfont iconyouhuiquan"></i>
+                            <p class="sidebarcom-hover">我的优惠券</p>
+                        </div>
+                    </li>
+                    <li class="sidebarcom-brand">
+                        <div id="J_brand" class="">
+
+                            <i class="i-sidebarcom-brand iconfont iconxin1 "></i>
+                            <p class="sidebarcom-hover">品牌收藏</p>
+                        </div>
+                    </li>
+                    <li class="sidebarcom-fav">
+                        <div id="J_fav">
+                            <i class="i-sidebarcom-fav iconfont iconshoucang"></i>
+                            <p class="sidebarcom-hover">商品收藏</p>
+                        </div>
+                    </li>
+                    <li class="sidebarcom-footprint">
+                        <div id="J_footprint" mars_seed="rightnav_footprint_click_out">
+                            <i class="i-sidebarcom-footprint iconfont iconlishijilu"></i>
+                            <p class="sidebarcom-hover">我的足迹</p>
+                        </div>
+                    </li class="sidebarcom-footprint">
+                </ul>
+
+            </div>
+            <div class="sidebarcom-nav-ft">
+
+                <ul id="J_sidebar_ft" class="sidebarcom-nav-ft">
+                    <li class="sidebarcom-survey">
+                        <div id="J_sbar_survey">
+                            <a href="//feedback.vip.com/feedback!hotFeedback.do">
+                                <i class="i-sidebarcom-survey iconfont iconbianjibi"></i>
+                            </a>
+                            <p class="sidebarcom-hover">会员反馈</p>
+                        </div>
+                    </li>
+                    <li class="sidebarcom-top">
+                        <div id="J_sbar_top">
+                            <a href="">
+                                <i class="i-sidebarcom-top iconfont iconfanhuidingbu-"></i>
+                            </a>
+                            <p class="sidebarcom-hover">返回顶部</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 右边栏end -->
+</body>
+<script src="../../static/scripts/require.js" data-main="cart.js"></script>
+<script src="../../scripts/lib/location.js"></script>
+
+</html>

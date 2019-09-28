@@ -1,0 +1,178 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "items": [
+            "100367438",
+            "100393394",
+            "100335894",
+            "100391153",
+            "100397682",
+            "100374154",
+            "100393160",
+            "100396014"
+        ],
+        "brandInfo": {
+            "100367438": {
+                "activeIndexTips": "\u90e8\u5206\u5546\u54c1\u6298\u4e0a5.5\u6298\u8d77",
+                "displayEndtime": 1568808000,
+                "salesNo": "100367438",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/32\/ias_156871095517130_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/32\/ias_156871095517130_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/32\/ias_156871095517130.jpg",
+                "agio": "<span class=\"salebg2\">1.5<\/span>\u6298\u8d77",
+                "salesName": "FERRAGAMO\u83f2\u62c9\u683c\u6155\u5962\u54c1\u6df7\u573a \u5171\u8944\u534e\u4e3d",
+                "brandStoreSn": "10000388",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100367438.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100393394": {
+                "activeIndexTips": "\u5168\u573a\u6298\u4e0a4.9\u6298\u8d77",
+                "displayEndtime": 1569031199,
+                "salesNo": "100393394",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/131\/ias_156869889472362_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/131\/ias_156869889472362_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/17\/131\/ias_156869889472362.jpg",
+                "agio": "<span class=\"salebg2\">1.1<\/span>\u6298\u8d77",
+                "salesName": "\u6155\u8a69moiselle\u5973\u88c5\u4e13\u573a",
+                "brandStoreSn": "10030748",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100393394.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100335894": {
+                "activeIndexTips": "\u5168\u573a\u6298\u4e0a4.3\u6298\u8d77",
+                "displayEndtime": 1568808000,
+                "salesNo": "100335894",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/12\/166\/ias_156827790798231_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/12\/166\/ias_156827790798231_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/12\/166\/ias_156827790798231.jpg",
+                "agio": "<span class=\"salebg2\">0.9<\/span>\u6298\u8d77",
+                "salesName": "\u4e09\u5f69\u5973\u88c5\u7cbe\u9009\u4e13\u573a",
+                "brandStoreSn": "10000683",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100335894.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100391153": {
+                "activeIndexTips": "\u5168\u573a\u6298\u4e0a4\u6298\u8d77",
+                "displayEndtime": 1568995200,
+                "salesNo": "100391153",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/18\/16\/ias_156877258143879_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/18\/16\/ias_156877258143879_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/18\/16\/ias_156877258143879.jpg",
+                "agio": "<span class=\"salebg2\">1.4<\/span>\u6298\u8d77",
+                "salesName": "URBAN REVIVO\u7537\u5973\u88c5\u4e13\u573a",
+                "brandStoreSn": "10021309",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100391153.html",
+                "showTimeFrom": 1568685600,
+                "topFiveCountTime": 1568858400
+            },
+            "100397682": {
+                "activeIndexTips": "\u5168\u573a\u6298\u4e0a2.1\u6298\u8d77",
+                "displayEndtime": 1568808000,
+                "salesNo": "100397682",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/87\/ias_156861730894514_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/87\/ias_156861730894514_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/87\/ias_156861730894514.jpg",
+                "agio": "<span class=\"salebg2\">3.4<\/span>\u6298\u5c01\u9876",
+                "salesName": "\u672a\u6765\u4e4b\u661f\u96c6\u56e2\u7ae5\u88c5\u79cb\u51ac\u7206\u6b3e\u4e13\u573a",
+                "brandStoreSn": "",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100397682.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100374154": {
+                "activeIndexTips": "\u90e8\u5206\u5546\u54c1\u6298\u4e0a2.8\u6298\u8d77",
+                "displayEndtime": 1568808000,
+                "salesNo": "100374154",
+                "brandImage": {
+                    "size1": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/4\/ias_156860298920684_570x273_90.jpg",
+                    "size2": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/4\/ias_156860298920684_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/d.vpimg1.com\/upcb\/2019\/09\/16\/4\/ias_156860298920684.jpg",
+                "agio": "<span class=\"salebg2\">4.8<\/span>\u6298\u5c01\u9876",
+                "salesName": "\u535a\u6d0bBeyond\u5bb6\u7eba\u4e13\u573a",
+                "brandStoreSn": "10000335",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100374154.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100393160": {
+                "activeIndexTips": "",
+                "displayEndtime": 1568807999,
+                "salesNo": "100393160",
+                "brandImage": {
+                    "size1": "\/\/c.vpimg1.com\/upcb\/2019\/09\/17\/35\/ias_156870432446337_570x273_90.jpg",
+                    "size2": "\/\/c.vpimg1.com\/upcb\/2019\/09\/17\/35\/ias_156870432446337_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/c.vpimg1.com\/upcb\/2019\/09\/17\/35\/ias_156870432446337.jpg",
+                "agio": "<span class=\"salebg2\">2.3<\/span>\u6298\u8d77",
+                "salesName": "\u98de\u79d1FLYCO\u4e2a\u4eba\u62a4\u7406\u4e13\u573a",
+                "brandStoreSn": "10001023",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100393160.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            },
+            "100396014": {
+                "activeIndexTips": "\u90e8\u5206\u5546\u54c1\u6298\u4e0a6.5\u6298\u8d77",
+                "displayEndtime": 1568807999,
+                "salesNo": "100396014",
+                "brandImage": {
+                    "size1": "\/\/c.vpimg1.com\/upcb\/2019\/09\/18\/102\/ias_156878221957331_570x273_90.jpg",
+                    "size2": "\/\/c.vpimg1.com\/upcb\/2019\/09\/18\/102\/ias_156878221957331_320x153_90.jpg"
+                },
+                "mobileImageOne": "\/\/c.vpimg1.com\/upcb\/2019\/09\/18\/102\/ias_156878221957331.jpg",
+                "agio": "<span class=\"salebg2\">1.5<\/span>\u6298\u8d77",
+                "salesName": "TCL\u5bb6\u7535\u4e13\u573a",
+                "brandStoreSn": "10001178",
+                "vendorSaleMessage": "",
+                "isSpecialBanner": "0",
+                "hiddenEndTime": 0,
+                "iconInfo": [],
+                "link": "\/\/list.vip.com\/100396014.html",
+                "showTimeFrom": 1568772000,
+                "topFiveCountTime": 1568858400
+            }
+        }
+    }
+}

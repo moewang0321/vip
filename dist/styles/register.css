@@ -1,0 +1,216 @@
+.c-header {
+  height: 100px;
+}
+
+.c-header-inner {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-logoIn {
+  display: block;
+  width: 125px;
+  height: 100px;
+  background-image: url(../static/imgs/sprites.png);
+  background-position: -308px -57px;
+}
+
+.c-service {
+  width: 305px;
+  height: 100px;
+  background-image: url(../static/imgs/sprites.png);
+  background-position: 0 0;
+}
+
+.c-body {
+  height: 650px;
+  background-image: url(../static/imgs/loginBg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.c-content {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px 20px;
+  min-height: 550px;
+  width: 1000px;
+}
+
+.c-register {
+  width: 360px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.c-register-header {
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.c-register-title {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #666;
+}
+
+.c-register-switch-login {
+  float: right;
+  font-size: 14px;
+}
+
+.u-text-highlight {
+  color: #f10180;
+}
+
+.c-register-body {
+  padding: 30px;
+}
+
+.c-footer {
+  width: 1000px;
+  height: 78px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 78px;
+}
+
+.c-Copyright {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.register-form .ui-input {
+  padding-left: 40px;
+  width: 248px;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  outline: 0;
+  -webkit-transition: border-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: border-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.ui-input {
+  height: 18px;
+  line-height: 18px;
+  padding: 6px 10px;
+}
+
+.c-register-username, .c-register-psword, .c-register-ensurePsword {
+  position: relative;
+}
+
+.c-icon-form {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+  z-index: 1;
+}
+
+.c-icon-mobile {
+  background-image: url(../static/imgs/sprites.png);
+  background-position: -420px -161px;
+  width: 20px;
+  height: 20px;
+}
+
+.c-icon-password {
+  background-image: url(../static/imgs/sprites.png);
+  background-position: -396px -161px;
+  width: 20px;
+  height: 20px;
+}
+
+.c-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.iconcuowu {
+  color: #f64a4a;
+}
+
+.icondui {
+  color: #47b85c;
+}
+
+.u-input-tip {
+  font-size: 12px;
+  color: #666;
+  position: relative;
+  min-height: 19px;
+  max-height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  display: block;
+}
+
+.ui-checkbox-normal {
+  display: none;
+}
+
+.ui-checkbox-simulation {
+  display: inline-block;
+  width: 19px;
+  height: 16px;
+  user-select: none;
+  background-image: url(../static/imgs/sprite2.png);
+  background-position: -48px 0;
+}
+
+.ui-form-item-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.ui-btn1 {
+  background-color: #f10180;
+  border: 1px solid #f10180;
+  border-radius: 2px;
+  color: white;
+  font-size: 16px;
+  width: 298px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 4px;
+  display: block;
+  text-align: center;
+}
+
+.ui-btn1:hover {
+  background-color: #f43499;
+  border-color: #f43499;
+}
+
+.vip-icon {
+  position: absolute;
+  width: 32px;
+  height: 44px;
+  right: 1px;
+  top: 1px;
+  padding-right: 10px;
+  padding-left: 5px;
+  line-height: 44px;
+  font-size: 17px;
+  border-radius: 3px;
+  visibility: -hidden;
+}
