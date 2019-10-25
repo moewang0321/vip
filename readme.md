@@ -3,7 +3,7 @@
 ---
 #### demo
 
-moewang.top/vip/dist/pages/home/
+www.moewang.top/vip/dist/pages/home/
 
 #### 介绍
 
